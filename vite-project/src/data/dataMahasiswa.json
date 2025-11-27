@@ -8,7 +8,7 @@
     "angkatan": "2023",
     "photo_url": "/images/fotokuu.jpeg",
     "headline": "Informatics Student | Web Development Enthusiast",
-    "short_bio": "Mahasiswa Teknik Informatika UMS yang berfokus pada pengembangan aplikasi web modern dan teknologi cloud.",
+    "short_bio": "Mahasiswa Teknik Informatika UMS yang berfokus pada pengembangan aplikasi web modern dan data science.",
     "location": "Surakarta, Jawa Tengah",
     "portfolio_url": "https://github.com/FandiArdiyanto"
   },
@@ -83,9 +83,5 @@
       "technologies": ["Excel"],
       "image_url": "/images/dicodinglogo.jpeg"
     }
-  ],
-  "statistics": {
-    "views_count": 85,
-    "profile_complete_percent": 80
-  }
+  ]
 }
