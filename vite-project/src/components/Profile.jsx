@@ -35,28 +35,19 @@ const Profile = ({ data }) => {
 
       {isZoomed && (
         <div 
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80 p-4 transition-opacity duration-300 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-95 p-4 backdrop-blur-sm cursor-zoom-out"
           onClick={() => setIsZoomed(false)}
         >
-          <div className="relative max-w-4xl max-h-full">
-            <img 
-              src={data.photo_url} 
-              alt={data.full_name} 
-              className="max-w-full max-h-[90vh] rounded-lg shadow-2xl object-contain animate-[zoomIn_0.3s_ease-out]"
-            />
+          <img 
+            src={data.photo_url} 
+            alt={data.full_name} 
+            className="h-[45vh] w-auto object-contain rounded-lg shadow-2xl animate-[zoomIn_0.3s_ease-out]"
+          />
             
-            <button 
-              onClick={() => setIsZoomed(false)}
-              className="absolute -top-4 -right-4 bg-red-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold shadow-lg hover:bg-red-700 transition-colors"
-            >
-              ✕
-            </button>
-            
-            <p className="text-white text-center mt-4 text-sm bg-black/50 px-3 py-1 rounded-full mx-auto w-fit">
+          <p className="absolute bottom-0 left-0 right-0 text-center text-white text-xs py-2 bg-black/80 backdrop-blur-sm rounded-b-lg pointer-events-none font-medium animate-pulse">
               Klik di mana saja untuk menutup
             </p>
           </div>
-        </div>
       )}
     </>
   );
