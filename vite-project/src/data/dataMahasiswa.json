@@ -36,6 +36,14 @@
       "level": "Advanced",
       "is_main": false,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+    },
+    {
+      "id": 4,
+      "name": "Python",
+      "category": "technical",
+      "level": "Advanced",
+      "is_main": true,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
     }
   ],
   "experiences": [
@@ -56,12 +64,24 @@
       "title": "Peserta Pelatihan",
       "organization": "DQLab",
       "experience_type": "education",
-      "start_date": "2024-02-01",
-      "end_date": "2024-06-30",
+      "start_date": "2025-08-18",
+      "end_date": "2025-10-18",
       "is_current": false,
       "description": "Belajar dasar machine learning dan data science menggunakan Python ",
       "technologies": ["Python"],
       "image_url": "/images/dqlablogo.jpeg"
+    },
+    {
+      "id": 103,
+      "title": "Peserta Pelatihan",
+      "organization": "Dicoding",
+      "experience_type": "education",
+      "start_date": "2024-11-10",
+      "end_date": "2025-01-31",
+      "is_current": false,
+      "description": "Belajar dasar visualisasi data ",
+      "technologies": ["Excel"],
+      "image_url": "/images/dicodinglogo.jpeg"
     }
   ],
   "statistics": {
