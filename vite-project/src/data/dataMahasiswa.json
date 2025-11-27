@@ -1,0 +1,71 @@
+{
+  "id": 1,
+  "slug": "fandi-ardiyanto-l200230204",
+  "profile": {
+    "full_name": "Fandi Ardiyanto",
+    "nim": "L200230204",
+    "prodi": "Teknik Informatika",
+    "angkatan": "2023",
+    "photo_url": "/images/fotokuu.jpeg",
+    "headline": "Informatics Student | Web Development Enthusiast",
+    "short_bio": "Mahasiswa Teknik Informatika UMS yang berfokus pada pengembangan aplikasi web modern dan teknologi cloud.",
+    "location": "Surakarta, Jawa Tengah",
+    "portfolio_url": "https://github.com/FandiArdiyanto"
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "ReactJS",
+      "category": "technical",
+      "level": "Intermediate",
+      "is_main": true,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    },
+    {
+      "id": 2,
+      "name": "JavaScript",
+      "category": "technical",
+      "level": "Intermediate",
+      "is_main": true,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    },
+    {
+      "id": 3,
+      "name": "Tailwind CSS",
+      "category": "technical",
+      "level": "Advanced",
+      "is_main": false,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+    }
+  ],
+  "experiences": [
+    {
+      "id": 101,
+      "title": "Anggota Paduan Suara Mahasiswa",
+      "organization": "PSM Voca Al kindi",
+      "experience_type": "UKM",
+      "start_date": "2023-08-01",
+      "end_date": null,
+      "is_current": true,
+      "description": "Mengikuti dan turut berkontribusi dalam kepanitiaan kegiatan Creative Visual Class.",
+      "technologies": ["Figma", "Canva"],
+      "image_url": "/images/psmkindilogo.jpeg"
+    },
+    {
+      "id": 102,
+      "title": "Peserta Pelatihan",
+      "organization": "DQLab",
+      "experience_type": "education",
+      "start_date": "2024-02-01",
+      "end_date": "2024-06-30",
+      "is_current": false,
+      "description": "Belajar dasar machine learning dan data science menggunakan Python ",
+      "technologies": ["Python"],
+      "image_url": "/images/dqlablogo.jpeg"
+    }
+  ],
+  "statistics": {
+    "views_count": 85,
+    "profile_complete_percent": 80
+  }
+}
