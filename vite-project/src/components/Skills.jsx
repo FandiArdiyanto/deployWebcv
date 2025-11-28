@@ -18,7 +18,13 @@ const Skills = ({ data }) => {
               <h3 className="font-semibold text-gray-800 text-sm">{skill.name}</h3>
               <p className="text-xs text-gray-500 capitalize">{skill.level}</p>
             </div>
+            {skill.is_main && (
+                <span className="bg-blue-600 text-white text-[10px] md:text-xs font-bold px-3 py-1 rounded-full shadow-sm whitespace-nowrap">
+                    Main Skill
+                </span>
+            )}
           </div>
+          
         ))}
       </div>
     </section>
