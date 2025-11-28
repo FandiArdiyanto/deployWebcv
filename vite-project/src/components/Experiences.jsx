@@ -10,12 +10,10 @@ const Experiences = ({ data }) => {
       <div className="space-y-6">
         {data.map((exp) => (
           <div key={exp.id} className="flex flex-col sm:flex-row gap-4 border-b border-gray-100 pb-4 last:border-0 last:pb-0">
-            {/* Logo Organisasi/Project */}
             <div className="flex-shrink-0">
                 <img src={exp.image_url} alt={exp.organization} className="w-16 h-16 rounded-md object-cover bg-gray-200 border border-gray-200" />
             </div>
             
-            {/* Detail Pengalaman */}
             <div className="flex-grow">
               <div className="flex justify-between items-start flex-col sm:flex-row mb-1">
                 <div>
@@ -23,13 +21,12 @@ const Experiences = ({ data }) => {
                     <p className="text-blue-600 font-medium text-sm">{exp.organization}</p>
                 </div>
                 <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded mt-2 sm:mt-0 whitespace-nowrap">
-                    {exp.start_date} - {exp.is_current ? 'Sekarang' : exp.end_date}
+                    {exp.start_date} ➞ {exp.is_current ? 'Sekarang' : exp.end_date}
                 </span>
               </div>
               
               <p className="text-gray-600 text-sm mb-3 leading-relaxed">{exp.description}</p>
               
-              {/* Tech Stack Tags */}
               {exp.technologies && (
                 <div className="flex flex-wrap gap-2">
                   {exp.technologies.map((tech, index) => (
