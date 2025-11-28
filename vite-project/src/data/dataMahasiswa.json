@@ -31,19 +31,19 @@
     },
     {
       "id": 3,
-      "name": "Tailwind CSS",
-      "category": "technical",
-      "level": "Advanced",
-      "is_main": false,
-      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-    },
-    {
-      "id": 4,
       "name": "Python",
       "category": "technical",
       "level": "Advanced",
       "is_main": true,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+    {
+      "id": 4,
+      "name": "Tailwind CSS",
+      "category": "technical",
+      "level": "Intermediate",
+      "is_main": false,
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
     }
   ],
   "experiences": [
